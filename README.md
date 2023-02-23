@@ -5,7 +5,7 @@ This is a Bot developed by fran_afp_#0001
 
 **This is a official NoxiusKeyAuth Bot, but it isn´t the most updated version**
 
-https://franafp.es
+https://wtp.franafp.com
 
  
 
@@ -68,5 +68,5 @@ https://user-images.githubusercontent.com/48841069/211205811-fa311640-4cd1-461e-
 
 Bot developed 100% by fran_afp_#0001
 You can´t sell it, is totally FREE
-More info in https://franafp.es
+More info in https://wtp.franafp.com/posts/noxius-keyauth-bot
 This bot is only for [KeyAuth](https://keyauth.cc)
