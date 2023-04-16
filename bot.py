@@ -146,13 +146,7 @@ async def on_command_error(ctx,error):
 		await ctx.reply(embed=discord.Embed(title="*Project Noxius Missin Arguments*",description=f"{ctx.author.name}, Command Missing Argument!",colour=0x00000))
 	print(f"        {m}[{w}x{m}] {r}{error} {m}[{w}x{m}]")
 
-@bot.command()
-@commands.has_permissions(administrator = True)
-async def clear(ctx):
-    os.system("clear")
-    print(faded_gui)
-    await ctx.author.send(embed=discord.Embed(title="Project Noxius | Console sucesfully cleaned", description=f"*{ctx.author.mention} Console cleaned*", colour=0x00001))
-    await ctx.message.delete()
+
 @bot.command()
 @commands.has_permissions(kick_members=True) 
 async def kick(ctx, member: discord.Member, *, reason=None):
