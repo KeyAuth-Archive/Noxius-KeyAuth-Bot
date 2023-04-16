@@ -66,7 +66,7 @@ https://user-images.githubusercontent.com/48841069/211205811-fa311640-4cd1-461e-
 
 # Credits
 
-Bot developed 100% by fran_afp_#0001
+Bot developed 100% by rotomicora#0001
 You can´t sell it, is totally FREE
 More info in https://wtp.franafp.com/posts/noxius-keyauth-bot
 This bot is only for [KeyAuth](https://keyauth.cc)
