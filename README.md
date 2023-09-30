@@ -4,18 +4,6 @@
 **This is a official NoxiusKeyAuthBot, but it isn´t the most updated version**
 
  
-
-# Customize
-
-# Showcase
-
-Showcase by [sowrrr#3097](https://github.com/Sowrrr)
-
-This is not a 100% Showcase
-
-https://user-images.githubusercontent.com/48841069/211205811-fa311640-4cd1-461e-b3e5-9bc5b8c04b39.mp4
-
-
 #  Commands
 
 - Generate Licenses --> keygen
