@@ -1,11 +1,10 @@
-# Bot developed by fran_afp_#0001
-# franafp.es
+
 import os
 import random
 
 import string
 from datetime import datetime
-footerall="franafp.es | developed by fran_afp_#0001"
+footerall="t.me/projectnoxius | developed by rotomicora"
 import discord
 import fade
 import requests
@@ -22,32 +21,18 @@ r=Fore.LIGHTRED_EX
 intents = discord.Intents.all()
 intents.members = True
 gui="""
-        ╔═══════════════════════════╗ ╔═════════════════════╗
-        ║    ╔╗╔╔═╗═╗ ╦╦╦ ╦╔═╗      ║ ║ -- [franafp.es] --  ║
-        ║    ║║║║ ║╔╩╦╝║║ ║╚═╗      ║ ║                     ║
-        ║    ╝╚╝╚═╝╩ ╚═╩╚═╝╚═╝      ║ ║   fran_afp_#0001    ║
-        ╚═══════════════════════════╝ ╚═════════════════════╝
+       		  ╔═══════════════════════════╗
+          	  ║    ╔╗╔╔═╗═╗ ╦╦╦ ╦╔═╗      ║
+                  ║    ║║║║ ║╔╩╦╝║║ ║╚═╗      ║ 
+        	  ║    ╝╚╝╚═╝╩ ╚═╩╚═╝╚═╝      ║ 
+        	  ╚═══════════════════════════╝ 
         ╔═══════════════════════════════════════════════════╗
         ║             [Noxius KeyAuth Bot]                  ║
-        ║            [!] https://franafp.es [!]             ║
         ╚═══════════════════════════════════════════════════╝
 """
-guichoice="""
-                   ╔═══════════════════════════╗
-                   ║   [Noxius KeyAuth Bot]    ║
-                   ║                           ║
-                   ║                           ║
-                   ║   [1] Start Bot           ║
-                   ║                           ║
-                   ║   [2] franafp.es          ║
-                   ║                           ║
-                   ║   by fran_afp_#0001       ║
-                   ╚═══════════════════════════╝
 
-"""
 os.system("cls")
 faded_gui=fade.pinkred(gui)
-faded_choices=fade.pinkred(guichoice)
 prefix= "prefix_here"
 token="token_here"
 version ="1.0"
@@ -67,18 +52,12 @@ bot.remove_command("help")
 bot.remove_command("clear")
 keyssss = {}
 print(faded_gui)
-print(faded_choices)
-choice = input(f"{w}[{m}+{w}] {w}Select an option: {m}")
-if choice == "1":
-	print("OK")
-else:
-	os.system("explorer https://franafp.es")
 
 @bot.event
 async def on_ready():
     os.system("clear")
     print(faded_gui)
-    await bot.change_presence(status=discord.Status.dnd,activity=discord.Game(f"{prefix}help | Developer: fran_afp_#0001"))
+    await bot.change_presence(status=discord.Status.dnd,activity=discord.Game(f"{prefix}help | Developer: rotomicora"))
 @bot.group(invoke_without_command=True)
 async def help(ctx):
     embed= discord.Embed(title="***Project Noxius Help***", description="- *List of helps*", colour=0x0001)
@@ -220,7 +199,7 @@ async def botinfo(ctx):
 		members += guild.member_count - 1
 	embed=discord.Embed(title="**Project Noxius Information**",colour=0x00000)
 	embed.add_field(name="*Bot Status:*", value=f"<a:yesverify:1030494749804744765> Working | {version}", inline=True)
-	embed.add_field(name="*Developer*", value=f"```fran_afp_#0001```", inline=True)
+	embed.add_field(name="*Developer*", value=f"```rotomicora```", inline=True)
 	await ctx.reply(embed=embed)	
 @bot.command()
 @commands.has_permissions(manage_messages=True)
