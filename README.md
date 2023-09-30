@@ -1,25 +1,17 @@
 
 # Noxius-KeyAuth-Bot
 
-This is a Bot developed by fran_afp_#0001
-
-**This is a official NoxiusKeyAuth Bot, but it isn´t the most updated version**
-
-https://wtp.franafp.com
+**This is a official NoxiusKeyAuthBot, but it isn´t the most updated version**
 
  
 
 # Customize
-
-You can customize this BOT developed by fran_afp_#0001
 
 # Showcase
 
 Showcase by [sowrrr#3097](https://github.com/Sowrrr)
 
 This is not a 100% Showcase
-
-https://www.youtube.com/watch?v=GERTMOmjl_I
 
 https://user-images.githubusercontent.com/48841069/211205811-fa311640-4cd1-461e-b3e5-9bc5b8c04b39.mp4
 
@@ -68,5 +60,4 @@ https://user-images.githubusercontent.com/48841069/211205811-fa311640-4cd1-461e-
 
 Bot developed 100% by rotomicora#0001
 You can´t sell it, is totally FREE
-More info in https://wtp.franafp.com/posts/noxius-keyauth-bot
 This bot is only for [KeyAuth](https://keyauth.cc)
